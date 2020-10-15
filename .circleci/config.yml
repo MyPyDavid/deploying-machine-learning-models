@@ -130,6 +130,7 @@ workflows:
             branches:
               only:
                 - master
+                - her5-4
       - section_10_deploy_to_heroku:
           requires:
             - train_and_upload_regression_model
@@ -137,3 +138,4 @@ workflows:
             branches:
               only:
                 - master
+                - her5-4
